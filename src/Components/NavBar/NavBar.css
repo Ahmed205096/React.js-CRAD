@@ -1,0 +1,57 @@
+.nav {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 2px 3px 6px white;
+  background-color: black;
+  z-index: 100;
+}
+
+.nav img {
+  width: 30px;
+  height: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 30px;
+}
+
+#about-contact {
+  position: absolute;
+  color: white;
+}
+
+.about-contact{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-btn{
+  width: 80px;
+  height: 25px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.post-btn:hover{
+  background-color: green;
+  border: 1px solid lightgreen;
+}

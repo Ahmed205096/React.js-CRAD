@@ -1,0 +1,27 @@
+body {
+  background-color: #0d0d0d;
+}
+
+.product-container-view {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  background-color: #0d0d0d;
+  align-items: center;
+}
+
+.card-view {
+  width: 400px;
+}
+
+.card-view p {
+  text-align: justify;
+}
+
+.card-view img:hover,
+.card-view img:active {
+  width: 95%;
+  height: auto;
+}
